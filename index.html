@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon"
+            href="https://www.quackit.com/pix/favicon96.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Nguyễn Qúy Dũng</title>
+    </head>
+    <body>
+        <div class="box">
+            <label for="Offset-X">Offset X</label>
+            <div class="range">
+                <input type="range" class="offset-x" id="Offset-X" min="0"
+                    max="100" value="0">
+                <span>50px</span>
+            </div>
+            <label for="Offset-Y">Offset Y</label>
+            <div class="range">
+                <input type="range" id="Offset-Y" class="offset-y" min="0"
+                    max="100"
+                    value="0">
+                <span>50px</span>
+            </div>
+            <label for="Blur Radius">Blur Radius</label>
+            <div class="range">
+                <input type="range" class="blur-radius" min="0" max="100"
+                    value="0">
+                <span>50px</span>
+            </div>
+            <label for>Blur Spread</label>
+            <div class="range">
+                <input type="range" class="blur-spread" min="0" max="100"
+                    value="0">
+                <span>50px</span>
+            </div>
+            <label for>Color</label>
+            <input type="color" value="#0292fb" class="color">
+            <input type="text" class="css" onclick="this.select()" readonly>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
